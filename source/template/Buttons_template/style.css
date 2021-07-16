@@ -1,0 +1,121 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+body{
+    background-color: #ced4da;
+}
+
+:root{
+    /*Button section 1 */
+        /*Colors Button 1*/
+        --colour-1: #184e77;
+        --colour-1-hover:#1e6091;
+        /*end*/
+        /*Colors Button 2 */
+        --colour-2: #118ab2;
+        --colour-2-hover:#0e7a9e;
+        /*end*/
+        /*Colors Button 3 */ 
+        --colour-3: #06d6a0;
+        --colour-3-hover:#03be8c;
+        /*end #ef476f*/
+        /*Colors Button 4 */
+        --colour-4: #ffd166;
+        --colour-4-hover:#ecc260;
+        /*end*/
+        /*Colors Button 5 */
+        --colour-5: #ef476f;
+        --colour-5-hover:#e24267;
+        /*end*/
+    /*end*/
+
+}
+
+.button{
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    margin:0 0.5em 0.5em 0;
+}
+/*Button 1*/
+.button-1{
+    text-decoration:none;
+    background-color: var(--colour-1);
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.button-1:hover{
+    background-color: var(--colour-1-hover);
+}
+/*end*/
+
+/*Button 2*/
+.button-2{
+    border: 0;
+    text-decoration:none;
+    background-color: var(--colour-2);
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.button-2:hover{
+    background-color: var(--colour-2-hover);
+}
+/*end*/
+
+/*Button 3*/
+.button-3{
+    border: 0;
+    text-decoration:none;
+    background-color: var(--colour-3);
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.button-3:hover{
+    background-color: var(--colour-3-hover);
+}
+/*end*/
+
+/*Button 4*/
+.button-4{
+    border: 0;
+    text-decoration:none;
+    background-color: var(--colour-4);
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.button-4:hover{
+    background-color: var(--colour-4-hover);
+}
+/*end*/
+
+/*Button 5*/
+.button-5{
+    border: 0;
+    text-decoration:none;
+    background-color: var(--colour-5);
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.button-5:hover{
+    background-color: var(--colour-5-hover);
+}
+/*end*/
+
+
+
